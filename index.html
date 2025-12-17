@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="hero">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3">
+            <div class="container">
+                <a class="navbar-brand fs-3 fw-bold" href="#">BARBER <br> <span class="fw-light">Hair Salon</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#salonfooter">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn fw-bold">Appointment <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <section class="hero text-center text-md-start">
+            <div class="container-fluid text-md-start ">
+                <div class="row justify-content-center justify-content-md-start align-items-center">
+                    <div class="col-10 col-md-7">
+                        <h1 class="fw-bold">BARBERS HAIR CUTTING</h1>
+                        <p class="my-3 mb-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facere
+                            odio, repellendus mollitia ratione voluptas molestias in modi error voluptates.</p>
+                        <a class="btn mb-lg-5 fw-bold" href="#service">Explore Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="service text-center py-4" id="service">
+            <div class="container">
+                <h1 class="fw-bold text-light">SERVICES WE PROVIDE</h1>
+                <p class="my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem iste praesentium molestiae
+                    nobis maxime
+                    odio voluptates aspernatur.</p>
+                <div class="row justify-content-center align-items-center my-3">
+                    <div id="haircut"
+                        class="col-9 py-3 col-sm-8 col-md-5 col-lg-3 card glowcard text-center border-0 shadow m-2">
+                        <img src="assets/hair-cut-tool.png" class="img-fluid mx-auto">
+                        <h2 class="my-3 fs-3">Stylish Haircut</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus esse sed quos?</p>
+                    </div>
+                    <div id="haircolor"
+                        class="col-9 py-3 col-sm-8 col-md-5 col-lg-3 card glowcard text-center border-0 shadow m-2">
+                        <img src="assets/hair-color.png" class="img-fluid mx-auto">
+                        <h2 class="my-3 fs-3">Hair color</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus esse sed quos?</p>
+                    </div>
+                    <div id="shave"
+                        class="col-9 py-3 col-sm-8 col-md-5 col-lg-3 card glowcard text-center border-0 shadow m-2">
+                        <img src="assets/razor.png" class="img-fluid mx-auto">
+                        <h2 class="my-3 fs-3">Shaving</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus esse sed quos?</p>
+                    </div>
+                    <div id="wash"
+                        class="col-9 py-3 col-sm-8 col-md-5 col-lg-3 card glowcard text-center border-0 shadow m-2">
+                        <img src="assets/hairwash.png" class="img-fluid mx-auto">
+                        <h2 class="my-3 fs-3">Hair Wash</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus esse sed quos?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery py-5 text-center text-md-start" id="gallery">
+            <div class="container">
+                <div class="row justify-content-center justify-content-md-start">
+                    <div class="col-7">
+                        <h1 class="fw-bold">LATEST PHOTO GALLERY</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi, voluptatibus qui iste
+                            optio </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center justify-content-md-start my-md-4">
+                    <div
+                        class="row col-12 col-md-10 justify-content-center justify-content-md-start align-items-center">
+                        <div class="col-5 col-md-3 my-2 my-md-1">
+                            <img class="img-fluid rounded" src="assets/david-cano-soriano-02yJ27pwyAs-unsplash.jpg" alt="">
+                        </div>
+                        <div class="col-5 col-md-3 my-2 my-md-1">
+                            <img class="img-fluid rounded" src="assets/david-cano-soriano-Z4ZS4Ry6E-U-unsplash.jpg" alt="">
+                        </div>
+                        <div class="col-5 col-md-3 my-2 my-md-1">
+                            <img class="img-fluid rounded" src="assets/john-karlo-mendoza-idzUojjazCg-unsplash.jpg" alt="">
+                        </div>
+                        <div class="col-5 col-md-3 my-2 my-md-1">
+                            <img class="img-fluid rounded" src="assets/mr-shave-4k60yfGy7fU-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="bg-dark" id="salonfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-11 py-3">
+                    <a class="navbar-brand fs-3 fw-bold" href="#">BARBER <br> <span class="fw-light">Hair
+                            Salon</span></a>
+                </div>
+                <div class="col-5 col-sm-3 py-2">
+                    <h5 class="my-1 text-light">QUICK LINKS</h5>
+                    <ul>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#hero">Homepage</a></li>
+                        <li><a href="#pricing">Prices</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-5 col-sm-3 py-2">
+                    <h5 class="my-1 text-light">SERVICES</h5>
+                    <ul>
+                        <li><a href="#haircut">Hairstyle</a></li>
+                        <li><a href="#shave">Shaving</a></li>
+                        <li><a href="#wash">Hairwash</a></li>
+                        <li><a href="#haircolor">Haircolor</a></li>
+                    </ul>
+                </div>
+                <div class="col-11 col-sm-6 py-2">
+                    <h5 class="my-1 text-light">CONTACT</h5>
+                    <ul>
+                        <li> <i class="fa-solid fa-location-dot mx-1"></i>XYZ Colony, near @MaxButcher, Earth</li>
+                        <li> <i class="fa-solid fa-phone mx-1"></i>###########</li>
+                        <li> <i class="fa-solid fa-clock mx-1"></i>Friday - Sunday, 07pm - 11pm</li>
+                        <li><i class="fa-solid fa-envelope mx-1"></i>abc@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center py-1">
+            <p class="fw-light">© 2025 Wasique — All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

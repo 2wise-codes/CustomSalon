@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto Condensed;
+}
+
+
+
+:root {
+    --themeorange: rgb(255, 136, 0);
+}
+
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.938), rgba(168, 126, 62, 0.678)), url(assets/Salonheaderbg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    color: rgb(233, 233, 233) !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    scroll-behavior: smooth;
+}
+
+nav .navbar-toggler-icon {}
+
+nav {
+    position: sticky !important;
+    top: 0 !important;
+    background: rgba(0, 0, 0, 0.836);
+}
+
+nav a {
+    font-size: 1.1rem !important;
+    color: rgb(233, 233, 233) !important;
+}
+
+nav .btn {
+    background-color: orange;
+}
+
+.navbar-brand {
+    line-height: 15px;
+    color: orange !important;
+}
+
+.navbar-brand span {
+    font-size: 1rem;
+    color: rgb(233, 233, 233);
+}
+
+nav a i {
+    font-size: .9rem !important;
+}
+
+.hero {
+    padding: 8rem 1rem;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    line-height: 73px;
+}
+
+.hero p {
+    line-height: 21px;
+    color: rgba(245, 245, 245, 0.767) !important;
+}
+
+.hero .btn {
+    color: rgb(233, 233, 233);
+    background-color: var(--themeorange);
+}
+
+.service {
+    background: linear-gradient(rgba(219, 146, 35, 0.726), rgba(231, 201, 100, 0.623));
+}
+
+.service .card {
+    border-radius: 25px;
+}
+
+.service .card,
+.service p {
+    color: rgba(48, 48, 48, 0.753) !important;
+}
+
+.service .card img {
+    max-width: 33%;
+    color: orange;
+}
+
+.service h2 {
+    color: orange !important;
+}
+
+.service h1 {
+    font-size: 3rem;
+}
+
+.service .card p {
+    line-height: 27px;
+}
+
+.glowcard {
+    transition: all .3s ease-in-out;
+}
+
+.glowcard:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 3px 3px var(--themeorange);
+}
+
+.gallery {
+    color: rgba(27, 27, 27, 0.89) !important;
+}
+
+.gallery img{
+    transition: all .4s ;
+}
+
+.gallery img:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 1px 4px 4px orange;
+}
+
+footer ul li,
+footer a {
+    font-size: 1rem;
+    margin: 9px 0;
+    color: rgba(173, 173, 173, 0.925) !important;
+}
+
+footer ul li i {
+    color: orange !important;
+    font-size: .8rem;
+}
+
+footer h5,
+footer ul li {
+    cursor: pointer;
+}
+
+footer .container-fluid p {
+    font-size: .9rem;
+    color: rgba(233, 233, 233, 0.904) !important;
+}
+
+
+
+/* ------------------------------ */
+
+
+@media (max-width: 767px) {
+
+
+    .service .card img {
+        max-width: 20%;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+        line-height: 65px;
+    }
+
+    footer ul li {
+        font-size: .9rem;
+        margin: 7px 0;
+
+    }
+
+    .gallery p{
+        font-size: .8rem;
+        line-height: 17px;
+    }
+}
+
+@media (max-width: 517px) {
+
+    footer ul li a {
+        font-size: .8rem;
+        margin: 7px 0;
+    }
+
+    footer ul li p {
+        font-size: .8rem;
+    }
+
+    footer h5 {
+        font-size: .9rem;
+    }
+
+
+    .service h1 {
+        font-size: 2.3rem;
+    }
+
+    .service p {
+        font-size: .9rem;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero p {
+        font-size: .9rem;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+}
